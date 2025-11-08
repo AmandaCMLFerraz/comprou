@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     backgroundColor: "#D0D2D8",
-    paddingTop: 62,
+    paddingTop: 80,
   },
   form: {
     width: "100%",
@@ -40,4 +40,19 @@ export const styles = StyleSheet.create({
     color: "#828282",
     fontWeight: 600,
   },
+  separator: {
+    width: "100%",
+    height: 1,
+    backgroundColor: "#EEF0F5",
+    marginVertical: 16
+  },
+  listContent: {
+    paddingTop: 18,
+    paddingBottom: 32,
+  },
+  empty: {
+    fontSize: 14, 
+    color: "#808080",
+    textAlign: "center"
+  }
 })
